@@ -1,0 +1,2 @@
+# 查找 / 目录下大于50M的文件，并把这些文件存放到test.txt里
+find / -size +50M -exec ls -lh {} \; >>test.txt
